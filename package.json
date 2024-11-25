@@ -4,7 +4,7 @@
   "description": "3D style based on default style for [Geolonia](https://geolonia.com/).",
   "main": "style.json",
   "scripts": {
-    "start": "charites serve style.yml --provider geolonia",
+    "start": "charites serve style.yml",
     "build": "charites build style.yml ./docs/style.json --sprite-input ./icons --sprite-output ./docs"
   },
   "repository": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/geoloniamaps/gsi#readme",
   "devDependencies": {
-    "@unvt/charites": "^0.4.0",
+    "@unvt/charites": "^2.0.0",
     "http-close": "^1.0.0",
     "node-fetch": "^2.6.7",
     "puppeteer": "^16.1.0"
